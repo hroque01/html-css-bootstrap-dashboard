@@ -1,6 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 nav {
     /* debug */
-    background-color: lightsalmon;
+    background-color: #f8f9fa;
+}
+
+nav > .container-fluid {
+    background-color: white;
 }
 
 .block {
@@ -9,14 +20,67 @@ nav {
     border: 1px solid black;
 }
 
+ul {
+    list-style-type: none;
+}
+
 /* colors */
 .color-orange {
     color: #ff8f00;
 }
 
+.color-white {
+    color: white;
+}
+
+.color-night {
+    color: #001632;
+}
+
+.color-grey-brown {
+    color: #5b5858;
+}
+
+/* css */
+
 #right {
     left: -200px;
     right: 0 !important; 
 }
+
+#menu {
+    padding-top: 100px;
+}
+
+.contenuto {
+    width: calc(100vw - 100px);
+}
+
+.comandi-laterali {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    flex-shrink: 0;
+    overflow: hidden;
+}
+
+.margin-comandi {
+    margin: 12px 15px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    flex-basis: 10px;
+}
+
+.nav_menu {
+    margin: 100px 0;
+    flex-grow: 1;
+    line-height: 32px;
+    flex-basis: 10px;
+    overflow: auto;
+    flex-basis: 200px;
+}
+
 
 
