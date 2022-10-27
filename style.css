@@ -24,17 +24,10 @@ ul {
     list-style-type: none;
 }
 
-.table_larger {
-    width: 50%;
+img {
+    width: 100%;
 }
 
-.table_short{
-    width: 15%;
-}
-
-.table_shorter {
-    width: 5%;
-}
 /*********** colors ***************/
 .color-orange {
     color: #ff8f00;
@@ -160,4 +153,16 @@ ul {
     width: 23px;
     border: 1px solid #f16450;
     border-radius: 20px;
+}
+
+.table_larger {
+    width: 50%;
+}
+
+.table_short{
+    width: 15%;
+}
+
+.table_shorter {
+    width: 5%;
 }
