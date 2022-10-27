@@ -1,0 +1,17 @@
+.block {
+    /* debug */
+    min-height: 200px;
+    border: 1px solid black;
+}
+
+/* colors */
+.color-orange {
+    color: #ff8f00;
+}
+
+#right {
+    left: -200px;
+    right: 0 !important; 
+}
+
+
