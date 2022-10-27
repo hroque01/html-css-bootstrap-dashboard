@@ -24,6 +24,17 @@ ul {
     list-style-type: none;
 }
 
+.table_larger {
+    width: 50%;
+}
+
+.table_short{
+    width: 15%;
+}
+
+.table_shorter {
+    width: 5%;
+}
 /*********** colors ***************/
 .color-orange {
     color: #ff8f00;
@@ -48,10 +59,26 @@ ul {
 .bg-lightgrey {
     background-color: #f7f7f7;
 }
+.bg-green {
+    background-color: #198754;
+}
+
+.bg-orange {
+    background-color: #f16450;
+}
+
+.bg-yellow {
+    background-color: #ffc620;
+}
+
+.bg-red {
+    background-color: red;
+}
 
 .border-grey {
     border-radius: 1px solid #d2d2d2;
 }
+
 /* css */
 
 #right {
@@ -107,4 +134,30 @@ ul {
 
 .resize-top {
     padding-top: 90px;
+}
+
+.box {
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    display: inline-block;
+    border-radius: 10px;
+    width: 65px;
+    color: white;
+    padding-right: 3px;
+    padding-left: 3px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.round_circle {
+    padding-right: 25px;
+    padding-left: 7px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    display: inline-block;
+    text-align: center;
+    width: 23px;
+    border: 1px solid #f16450;
+    border-radius: 20px;
 }
