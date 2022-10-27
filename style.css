@@ -16,7 +16,7 @@ nav > .container-fluid {
 
 .block {
     /* debug */
-    min-height: 200px;
+    min-height: 50px;
     border: 1px solid black;
 }
 
@@ -24,7 +24,7 @@ ul {
     list-style-type: none;
 }
 
-/* colors */
+/*********** colors ***************/
 .color-orange {
     color: #ff8f00;
 }
@@ -41,9 +41,21 @@ ul {
     color: #5b5858;
 }
 
+.bg-acqua {
+    background-color: #1b72e8;
+}
+
+.bg-lightgrey {
+    background-color: #f7f7f7;
+}
+
+.border-grey {
+    border-radius: 1px solid #d2d2d2;
+}
 /* css */
 
 #right {
+    top: 120%;
     left: -200px;
     right: 0 !important; 
 }
@@ -82,5 +94,17 @@ ul {
     flex-basis: 200px;
 }
 
+.general_container {
+    display: flex;
+}
 
+.contenuto {
+    width: 100vw;
+    height: 100vh;
+    margin-top: 0px;
+    overflow: auto;
+}
 
+.resize-top {
+    padding-top: 90px;
+}
