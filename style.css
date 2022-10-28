@@ -40,6 +40,9 @@ img {
     color: #5b5858;
 }
 
+.color-acqua {
+    color: #1b72e8;
+}
 .bg-acqua {
     background-color: #1b72e8;
 }
@@ -69,6 +72,10 @@ img {
 
 .border-grey {
     border-radius: 1px solid #d2d2d2;
+}
+
+.border-acqua {
+    border: 1px solid  #165bba;
 }
 
 /* css */
@@ -135,10 +142,8 @@ img {
     text-align: center;
     display: inline-block;
     border-radius: 10px;
-    width: 65px;
+    width: 55px;
     color: white;
-    padding-right: 3px;
-    padding-left: 3px;
     padding-top: 5px;
     padding-bottom: 5px;
 }
@@ -170,33 +175,17 @@ img {
 }
 
 .table_short{
-    width: 15%;
+    width: 20%;
 }
 
 .table_shorter {
     width: 5%;
 }
 
-#colonna1 {
-    width: 70%;
-}
-
-#colonna2 {
-    width: 55%;
-}
-
 
 @media all and (max-width: 990px) {
     .comandi-laterali {
         width: 50px;
-    }
-
-    #colonna1 {
-        width: 98%;
-    }
-    
-    #colonna2 {
-        width: 98%;
     }
 
 }
