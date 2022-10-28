@@ -170,6 +170,11 @@ img {
     height: 28px;
 }
 
+.re-size-txt-jumbo-plus {
+    width: 50px;
+    height: 28px;
+}
+
 .table_larger {
     width: 50%;
 }
@@ -182,6 +187,9 @@ img {
     width: 5%;
 }
 
+.table_hover:hover {
+    background-color: #F8F8F8;
+}
 
 @media all and (max-width: 990px) {
     .comandi-laterali {
