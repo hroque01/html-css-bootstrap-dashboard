@@ -99,7 +99,7 @@ img {
     height: 100vh;
     display: flex;
     flex-direction: column;
-    background-color: #0b1c2f;
+    background: linear-gradient(45deg, #132940  60%, #051e34 60%);
     flex-shrink: 0;
     overflow: hidden;
 }
